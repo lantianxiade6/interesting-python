@@ -1,3 +1,4 @@
+#租房类型和各城市各区域的信息，供house_data_crawler.py调用
 rent_type = {'整租': 200600000001, '合租': 200600000002}
 
 city_info = {'北京': [110000, 'bj', {'东城': 'dongcheng', '西城': 'xicheng', '朝阳': 'chaoyang', '海淀': 'haidian',
@@ -17,3 +18,5 @@ city_info = {'北京': [110000, 'bj', {'东城': 'dongcheng', '西城': 'xicheng
                                    '盐田区': 'yantianqu', '宝安区': 'baoanqu', '龙岗区': 'longgangqu',
                                    '龙华区': 'longhuaqu', '光明区': 'guangmingqu', '坪山区': 'pingshanqu',
                                    '大鹏新区': 'dapengxinqu'}]}
+import time
+print(time.time())
